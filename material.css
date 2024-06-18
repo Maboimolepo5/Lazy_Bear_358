@@ -1,0 +1,231 @@
+header {
+    color: aqua;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+header h1 {
+    color: red;
+    font-size: xx-large;
+}
+
+header a {
+    color: aqua;
+    background-color: blueviolet;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.material {
+    color: aqua;
+}
+
+.material ul {
+    color: white;
+}
+
+.material ul li {
+    width: 300px;
+    width: 400px;
+    position: left;
+    top: -20px;
+    left: 870px;
+    border-radius: 25px;
+    padding: 8px;
+    float: left;
+}
+
+.material ul li img {
+    width: 300px;
+    width: 400px;
+    position: left;
+    top: -20px;
+    left: 870px;
+    border-radius: 25px;
+    padding: 8px;
+    float: left;
+}
+
+.material ul li a{
+    color: black;
+}
+
+footer {
+    background-color: white;
+    text-decoration: none;
+    bottom: 300px;
+    top: -2000px;
+}
+
+footer p {
+    color: red;
+    font-size: x-large;
+}
+
+nav{
+    background-color: #000;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width:1200px) {
+    /*Normal screen*/
+    
+    .icon {
+        width: 20px;
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+        font-size: 1.6vw;
+    }
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1, .content span{
+        font-size: 4.5vw;
+    }
+    .content.par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+    .content a{
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    /*menu*/
+
+    .icon {
+        color: #000;
+    }
+    
+    .icon img {
+        float: left;
+        left: 20px;
+        background-position: 20%;
+    }
+    
+    .icon ul {
+        float: right;
+        top: -200px;
+        right: -30px;
+        bottom: 20px;
+    }
+    
+    .icon li {
+        margin-left: 0px;
+        width: 30px;
+        height: 60px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top: 20px;
+        left: 1150px;
+        right:10px;
+        border-radius: 10px;
+        padding: 25px;
+        bottom: 10px;
+    }
+    
+    .icon ul li{
+        margin-left: 0px;
+        width: 30px;
+        height: 60px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top: 20px;
+        left: 1150px;
+        right:10px;
+        border-radius: 10px;
+        padding: 25px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    /*Tablet*/
+    .content{
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .content h1, .content span{
+        font-size: 6vw;
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+    .content a{
+        font-size: 2vw;
+    }
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+    .menu{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /*IPAD old version*/
+
+    nav {
+        margin-top: -40px;
+        margin-left: 38px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    /*mobile*/
+
+    .logo{
+        margin-left: 20px;
+        font-size: 4vw;
+    }
+    nav {
+        margin-top: -40px;
+        margin-left: 38px;
+        top: 20px;
+    }
+} 
